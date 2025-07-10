@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", serif;
+    list-style: none;
+}
+.kartocki{
+    width: 1280px;
+    height: 747px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin-top: 104px;
+}
+.main{
+    width: 1440px;
+    margin: 0 auto;
+    height: 944px;
+    padding-top: 48px;
+}
+.box{
+    background-color:#999a9b;
+    width: 264px;
+    height: 250px;
+}
+.img{
+    width: 264px;
+    height: 160px;
+}
+.h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 28px;
+}
+.nav{
+    margin: 0 auto;
+    width: 1440px;
+    height: 80px;
+    display: flex;
+    padding-left: 81px;
+    padding-right: 80px;
+    color: black;
+}
+.nav ul{
+    display: flex;
+    gap: 941px;
+    align-items: center;
+}
+.nav ul li{
+    color: black;
+}
+h1{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32.74px;
+}
+.nav p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.82px;
+}
+.input{
+    width: 480px;
+    height: 56px;
+    background-color: #2B3844;
+    position: absolute;
+    margin-left: 80px;
+    display: flex;
+}
+.logo{
+    position: relative;
+    z-index: 1;
+    align-content: center;
+    margin-left: 32px;
+    margin-top: 19px;
+    width: 18px;
+    height: 18px;
+}
+input{
+    width: 480px;
+    height: 56px;
+}
+.dark-mode {
+  background: #444;
+  color: #fff;
+}
+
+.dark-mode .main{
+  background: #444;
+}
+.dark-mode .nav{
+  background: #444;
+}
+.dark-mode .kartocki{
+  background: #444;
+}
+.dark-mode input{
+  background: #444;
+}
+.dark-mode h1{
+  color: white;
+}
+
+.dark-mode .card {
+  background: #555;
+  
+}
